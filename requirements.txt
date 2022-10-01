@@ -1,0 +1,13 @@
+django >=3.2.4, <4.0
+django-cleanup
+django-cors-headers
+django-environ
+djangorestframework
+djangorestframework-simplejwt
+djoser
+factory-boy
+gunicorn
+pillow
+psycopg2
+pytest
+pytest-django
