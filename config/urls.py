@@ -13,9 +13,11 @@ env.read_env(str(BASE_DIR / '.env'))
 
 urlpatterns = [
     #path('api/account/', include('account.urls')),
+    path('api/blog/', include('blog.urls')),
     path(env.get_value('ADMIN_URL', default='admin/'), admin.site.urls),
     #path('api/auth/', include('djoser.urls')),
     #path('api/auth/', include('djoser.urls.jwt')),
+    path('markdownx/', include('markdownx.urls')),
 ]
 
 if settings.DEBUG:

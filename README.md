@@ -1,4 +1,4 @@
-# my-django-nuxt
+# my-django-nuxt-markdown-blog
 
 ## How to use
 
@@ -10,12 +10,12 @@ docker compose run django python manage.py makemigrations
 docker compose run django python manage.py migrate
 ```
 
-After that create a superuser
+After that create a superuser.
 ```bash
 docker compose run django python manage.py createsuperuser
 ```
 
-If other applications (e.g., markdownx) are added, collect static files
+If other applications (e.g., markdownx) are added, collect static files.
 ```bash
 docker compose run django python manage.py collectstatic
 ```

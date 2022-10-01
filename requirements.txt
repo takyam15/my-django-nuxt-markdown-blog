@@ -2,6 +2,7 @@ django >=3.2.4, <4.0
 django-cleanup
 django-cors-headers
 django-environ
+django-markdownx
 djangorestframework
 djangorestframework-simplejwt
 djoser
