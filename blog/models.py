@@ -15,7 +15,7 @@ class Category(models.Model):
         editable=False
     )
     slug = models.SlugField('slug', unique=True)
-    name = models.CharField('name', max_length=20)
+    name = models.CharField('name', max_length=30)
     description = models.TextField('description', blank=True, null=True)
     display_order = models.IntegerField('display_order', default=0)
 
@@ -34,7 +34,7 @@ class Tag(models.Model):
         editable=False
     )
     slug = models.SlugField('slug', unique=True)
-    name = models.CharField('name', max_length=20)
+    name = models.CharField('name', max_length=30)
     description = models.TextField('description', blank=True, null=True)
 
     class Meta:
