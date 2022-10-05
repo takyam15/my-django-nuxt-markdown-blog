@@ -6,7 +6,7 @@
     class="mb-2 mr-sm-2 mb-sm-0"
     placeholder="キーワードを入力"
     ></b-form-input>
-    <b-button variant="dark">検索</b-button>
+    <b-button variant="outline-success">検索</b-button>
   </b-form>
 </template>
 

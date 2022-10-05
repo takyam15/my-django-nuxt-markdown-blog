@@ -11,11 +11,11 @@
               </b-col>
               <b-col md="9">
                 <b-container>
-                  <b-card-text text-tag="h2" class="font-weight-bold">
+                  <b-card-text text-tag="h2" class="font-weight-bold my-3">
                     <b-link :to="{name: 'blog-slug', params: {slug: post.slug}}" class="card-link text-dark">{{ post.title }}</b-link>
                   </b-card-text>
                   <div class="my-3">
-                    <b-button size="sm" squared>{{ post.category }}</b-button>
+                    <b-button size="sm" squared  variant="outline-success">{{ post.category }}</b-button>
                   </div>
                   <div class="my-3">
                     <b-list-group horizontal="md">

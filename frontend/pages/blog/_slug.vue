@@ -7,7 +7,7 @@
       <b-container>
         <h1 class="text-center font-weight-bold">{{ post.title }}</h1>
         <div class="my-3">
-          <b-button size="sm" squared>{{ post.category }}</b-button>
+          <b-button size="sm" squared variant="outline-success">{{ post.category }}</b-button>
         </div>
         <div class="my-3">
           <b-list-group horizontal="md">
